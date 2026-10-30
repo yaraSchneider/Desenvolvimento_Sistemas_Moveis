@@ -1,0 +1,3 @@
+# Configuração do analisador estático de Dart.
+linter:
+  rules:

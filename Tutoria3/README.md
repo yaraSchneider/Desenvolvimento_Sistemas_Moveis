@@ -722,3 +722,38 @@ Os três exercícios trabalham diferentes aspectos importantes do Flutter:
 **Exercício 3** demonstra como gerenciar corretamente recursos durante o ciclo de vida de um `StatefulWidget`, utilizando `dispose()` para cancelar um `Timer`.
 
 Juntos, os exercícios mostram que uma aplicação Flutter eficiente não depende apenas da criação da interface, mas também de uma boa organização dos widgets, gerenciamento dos recursos e preocupação com desempenho.
+
+---
+
+# 📸 Demonstração (app em execução)
+
+As capturas abaixo foram obtidas com o projeto **rodando** via
+`flutter run -d web-server`, confirmando que ele compila e funciona.
+
+> Correção aplicada: os arquivos do Exercício 2 estavam com os conteúdos
+> trocados (`sensor_model.dart` continha a tela e `dashboard_grid_screen.dart`
+> continha o modelo, além de um import circular). Os conteúdos foram colocados
+> nos arquivos corretos e o projeto foi estruturado como app Flutter executável
+> (`lib/`, `pubspec.yaml` e suporte web).
+
+## Como executar
+
+```bash
+cd Tutoria3
+flutter pub get
+flutter run        # ou: flutter run -d chrome
+```
+
+## Telas
+
+### Menu principal
+![Menu](docs/screenshots/01_menu.png)
+
+### Exercício 1 — ListView.builder (Logs Industriais)
+![Exercício 1](docs/screenshots/02_exercicio1_listview.png)
+
+### Exercício 2 — GridView.builder (Telemetria Industrial)
+![Exercício 2](docs/screenshots/03_exercicio2_gridview.png)
+
+### Exercício 3 — dispose() / Timer (Monitor Térmico)
+![Exercício 3](docs/screenshots/04_exercicio3_dispose.png)

@@ -117,3 +117,25 @@ flutter run -d chrome --no-pub
 O projeto demonstra a utilização de objetos entre rotas, navegação assíncrona, tratamento de nulidade e gerenciamento de estado em Flutter.
 
 Os dados dos veículos são simulados localmente para fins acadêmicos.
+
+---
+
+## 📸 Demonstração (app em execução)
+
+As capturas abaixo foram obtidas com o projeto **rodando** via
+`flutter run -d web-server`, confirmando que ele compila e funciona.
+
+### 1. Resultados — Monitoramento de Veículos Elétricos
+Lista de veículos (WEG-001 a WEG-004) com status (Ativo, Manutenção, Inativo).
+
+![Tela de resultados](docs/screenshots/01_resultados.png)
+
+### 2. Filtros de Pesquisa
+Filtro por identificação do veículo e por status.
+
+![Tela de filtros](docs/screenshots/02_filtros.png)
+
+### 3. Filtro de Status (dropdown)
+Opções disponíveis: Todos, Ativo, Manutenção e Inativo.
+
+![Dropdown de status](docs/screenshots/03_filtro_status.png)

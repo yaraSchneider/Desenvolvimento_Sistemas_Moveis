@@ -1,16 +1,23 @@
-# flutter_application_1
+# Hello InovaMobile
 
-A new Flutter project.
+Primeiro aplicativo Flutter da disciplina (contador interativo) com identidade
+visual "InovaMobile - Yara". Ao pressionar o botão flutuante (+), um contador é
+incrementado usando `setState`.
 
-## Getting Started
+## Como executar
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run        # ou: flutter run -d chrome
+```
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Demonstração (app em execução)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+As capturas abaixo foram obtidas com o projeto **rodando** via
+`flutter run -d web-server`, confirmando que ele compila e funciona.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1. Tela inicial (contador em 0)
+![Tela inicial](docs/screenshots/01_home.png)
+
+### 2. Após pressionar o botão (+) cinco vezes
+![Contador incrementado](docs/screenshots/02_contador.png)
